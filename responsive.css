@@ -1,0 +1,48 @@
+@media (max-width: 1200px){
+    .filterbox{
+        padding: 30px 40px;
+    }
+}
+@media (max-width: 992px){
+    .filterbox{
+        padding: 30px 15px;
+    }
+    .content{
+        grid-gap: 12px;
+    }
+    .navigation-filter a{
+        padding: 9px 12px;
+    }
+}
+@media (max-width: 767px){
+    shot-thumbnail{
+        margin-top: 20px;
+    }
+    .filter-tabs{
+        flex-wrap: wrap;
+    }
+    .filter-sort{
+        width: 100%;
+    }
+    .navigation-filter{
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navigation-filter::-webkit-scrollbar{
+        width: 10px;
+        height: 6px;
+    }
+    .navigation-filter::-webkit-scrollbar-track{
+        background: #f1f1f1;
+    }
+    .navigation-filter::-webkit-scrollbar-thumb{
+        background: #888;
+    }
+}
+@media (max-width: 576px){
+    .px-0{
+        padding: 0px;
+    }
+}
